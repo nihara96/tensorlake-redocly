@@ -11,6 +11,16 @@ servers:
   - url: https://www.getindexify.io
 tags:
   - name: Namespace
+components:
+  securitySchemes:
+    apiKeyAuth:
+      type: apiKey
+      in: header
+      name: X-API-Key
+
+security:
+  - apiKeyAuth: []
+
 paths:
   /namespaces:
     post:
