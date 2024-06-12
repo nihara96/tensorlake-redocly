@@ -1,0 +1,9 @@
+type: reference-docs
+definitionId: indexify
+settings:
+  pagination: none
+  generateCodeSamples:
+    languages:
+      - lang: curl
+      - lang: JavaScript
+      - lang: Node.js
